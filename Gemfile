@@ -24,7 +24,7 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
  gem 'jquery-rails', '4.1.1'
- 
+
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -42,6 +42,9 @@ gem 'bootstrap-sass', '3.3.7'
 
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
+
+# Use Hirb for better database table display in console
+gem 'hirb', '0.7.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
